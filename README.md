@@ -2,7 +2,7 @@ vim-usd-auto-formatter is a Vim plugin that cleans and aligns USD code,
 automatically.
 
 ## Demo
-Coming soon
+[![asciicast](https://asciinema.org/a/251922.svg)](https://asciinema.org/a/251922)
 
 
 ## Installation
