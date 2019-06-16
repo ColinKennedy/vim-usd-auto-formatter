@@ -11,11 +11,13 @@ Use your plugin manager to add this plugin to Vim.
 ### vim-plug
 ```vim
 Plug 'ColinKennedy/vim-usd-auto-formatter'
+nmap <leader>f <Plug>VimUsdLintFormatCurrentBuffer
 ```
 
 ### Vundle
 ```vim
 Plugin 'ColinKennedy/vim-usd-auto-formatter'
+nmap <leader>f <Plug>VimUsdLintFormatCurrentBuffer
 ```
 
 
