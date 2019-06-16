@@ -12,7 +12,7 @@ function! s:ReplaceLines(lines)
     endfor
 
     " If there are any lines left-over, delete them
-    if l:index != l:total
+    if l:index <= l:total
         execute ':' . l:index ',' . l:total . 'd'
     endif
 
