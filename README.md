@@ -40,3 +40,11 @@ Basically, this plugin is a hack that runs `usdcat` on Vim buffers and
 replaces the buffer with its ASCII representation. This has the effect
 of "formatting" the USD code in a deterministic and clean way. Pretty
 cool, huh?
+
+
+## Known Issues
+Because this plugin is experimental and literally runs usdcat on your source-code,
+it falls under the same issues that usdcat has. 
+
+Such as:
+-  Line / inline comments are removed
