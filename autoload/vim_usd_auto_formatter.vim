@@ -22,7 +22,7 @@ endfunction
 
 
 " Run `usdcat` on the current file and dump its output to the current buffer
-function! vim_usd_autoformatter#auto_format_current_buffer()
+function! vim_usd_auto_formatter#auto_format_current_buffer()
     update  " Save the current buffer if there are any unsaved changes
 
     let l:command = g:usdcat_command . ' "' . expand('%:p') . '" --usdFormat usda'
